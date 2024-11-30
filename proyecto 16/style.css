@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(232, 92, 13);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upload-container{
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+
+}
+
+.upload-container>title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.description{
+color: rgb(250, 188, 63);
+
+}
+
+.drag-drop{
+    border: dashed 3px rgb(199, 37, 62);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    margin: 20px 0;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: rgb(199, 37, 62);
+    gap: 10px;
+}
+
+.icon svg{
+    width: 300px;
+    height: 100px;
+    fill: rgb(240, 151, 165);
+}
+
+
+.btn{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(130, 17, 49);
+    color: white;
+    border-radius: 15px;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(232, 92, 13);
+
+}
+
+.uploaded-files{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-section{
+    text-align: left;
+    color: rgb(250, 188, 63);
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+
+
+.file{
+    border: solid 1px rgb(199, 37, 62);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.file:hover{
+    box-shadow: 0 5px 10px rgb(0,0,0,2);
+
+
+}
+
+.file.icon{
+    width: 48px;
+    padding: 0 10px;
+
+}
+
+.icon img{
+    width: 48px;
+  height: 48px;
+  
+}
+
+.title{
+    flex: 1;
+   
+}
+
+.name{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.size{
+    color: rgb(250, 188, 63);
+    font-size: 14px;
+
+}
+.progress{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(130, 17, 49);
+    border-radius: 4px;
+}
+
+
+.progress-60{
+    background-color:  rgb(130, 17, 49) ;
+    height: 5px;
+    width: 60%;
+    border-radius: 4px;
+}
+
+.actions button{
+    padding: 10px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.actions button svg{
+    width: 16px;
+    height: 16px;
+    fill: rgb(250, 188, 63);
+}
+
+.actions button:hover{
+background-color: rgb(232, 92, 13);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

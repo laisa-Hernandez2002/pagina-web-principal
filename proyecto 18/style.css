@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(191, 46, 240);
+}
+
+.slider-container{
+    width: 700px;
+    margin: 100px auto;
+}
+
+.slider-container .slider-viewport{
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider-container .slider-viewport .slide{
+    min-width: 700px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    scroll-snap-align: start;
+}
+
+#slide1 {
+    background-color: rgb(237, 62, 247);
+}
+
+#slide2 {
+    background-color: rgb(130, 17, 49);
+}
+
+#slide3 {
+    background-color: rgb(199, 37, 62);
+}
+
+#slide4 {
+    background-color: rgb(232, 92, 13);
+}
+
+#slide5 {
+    background-color:rgb(250, 188, 63);
+}
+
+.slider-container .links{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.slider-container .links a{
+    width: 40px;
+    height: 40px;
+    background-color: #2e2e2e;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.slider-container .links a:hover{
+    background-color: #226bbe;
+}

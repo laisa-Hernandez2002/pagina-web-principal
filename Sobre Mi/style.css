@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FEECB3;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #ED3EF7;
+    color: FFF6EA;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Estilo de la foto de perfil */
+header .perfil-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid FFF6EA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    background: FFF6EA;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #FFF6EA;
+}
+
+section h2 {
+    color: #BF2EF0;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ED3EF7;
+    display: inline-block;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+ul li:before {
+    content: "•";
+    color: #BF2EF0;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+}
+
+/* Contacto */
+.contacto p {
+    margin: 0.5rem 0;
+}
+
+.contacto p strong {
+    color: #ED3EF7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #ED3EF7;
+    color: #FFF6EA;
+    font-size: 0.9rem;
+}
+
+/* Estilo de la foto de perfil */
+header .perfil-foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 10%; /* Esquinas ligeramente redondeadas */
+    border: 5px solid #FFF6EA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ajusta la imagen para que no se deforme */
+}
+
+.regresar-home {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .regresar-home .boton {
+    display: inline-block;
+    background-color: #ED3EF7; /* Color principal */
+    color: #FFF6EA;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .regresar-home .boton:hover {
+    background-color: #d8a5ea; /* Color más claro */
+    color: #000;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px); /* Efecto de levantamiento */
+  }
